@@ -39,8 +39,8 @@ main {
 
 .feedback-button {
   position: absolute;
-  top: 68px; /* Adjust as needed to make the button pop out */
-  right: 25px; /* Adjust for spacing from the right edge */
+  top: 64px; /* Adjust as needed to make the button pop out */
+  right: 70px; /* Adjust for spacing from the right edge */
   background-color: #24543D;
   opacity: 0.94;
   color: #FFFFFF;
