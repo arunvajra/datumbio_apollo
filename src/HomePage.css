@@ -1,0 +1,137 @@
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap" rel="stylesheet">
+
+
+.homepage {
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  text-align: center;
+  /* No background-image line needed */
+
+}
+
+.homepage-heading {
+  color: white;
+  font-family: 'Roboto', sans-serif; /* Replace with 'TT Hoves Pro Medium' if available */
+  font-weight: bold;
+  font-size: 40px;
+  text-align: center;
+  margin-top: 100px; /* Adjust as needed to move a bit above the middle */
+}
+
+.homepage-tagline {
+  color: white; /* Or any other color you prefer */
+  font-size: 23px; /* Adjust the size as needed */
+  text-align: center;
+  font-weight: normal; /* Ensures the text is not bold */
+  margin-top: 20px; /* Adds space between the heading and tagline */
+}
+
+.start-building-btn {
+  display: inline-block; /* Make the button an inline-block element for text-align to work */
+  background-color: #24543D; /* Button background color */
+  color: white; /* Text color */
+  font-size: 26px; /* Button text size */
+  padding: 12px 60px; /* Top and bottom, left and right padding */
+  border: none; /* No border */
+  border-radius: 50px; /* Rounded corners */
+  cursor: pointer; /* Hand cursor on hover */
+  margin-top: 20px; /* Space above the button */
+  transition: background-color 0.3s, transform 0.3s; /* Smooth transition for hover effect */
+}
+
+.start-building-btn:hover {
+  background-color: #36725c; /* Lighter shade on hover */
+  transform: scale(1.05); /* Slightly increase size on hover */
+}
+
+.logo {
+  /* Style your logo here */
+  /* Example: */
+  padding: 30px; /* Adjust padding as needed */
+  margin-left: 20px;
+  text-align: left; /* Aligns the logo to the left */
+}
+
+.contact-us-btn {
+  position: fixed;
+  top: 58px;
+  right: 64px;
+  background-color: black; /* Set the background color to black */
+  color: white; /* Set the font color to white */
+  border: none; /* Optional: remove border if present */
+  padding: 10px 20px; /* Adjust padding as needed */
+  border-radius: 5px; /* Optional: add rounded corners */
+  cursor: pointer; /* Change cursor to pointer to indicate it's clickable */
+  font-size: 22px; /* Adjust font size as needed */
+  font-weight: bold;
+  transition: background-color 0.3s; /* Optional: add transition for hover effects */
+}
+
+.contact-us-btn:hover {
+  background-color: #333333; /* Optional: change background on hover for a subtle effect */
+}
+
+
+.contact-popup {
+  position: fixed;
+  top: 100px; /* Adjust based on button size and position */
+  right: 65px;
+  background-color: white;
+  border: 1px solid #24543D;
+  border-radius: 8px;
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  /* Additional styling for the pop-up */
+}
+
+
+.cards-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* Adjusted spacing */
+  padding: 70px; /* Adjusted padding */
+  margin-top: 10px; /* More space above the container */
+}
+
+.homepage-card {
+  width: 500px; /* Adjusted width for a more balanced look */
+  border-radius: 15px; /* Rounded corners for a softer look */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+  overflow: hidden; /* Ensures the content respects the border radius */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effects */ 
+  clip-path: polygon(0% 0%, 100% 0%, 100% 85%, 50% 100%, 0 85%);
+}
+
+.homepage-card:hover {
+  transform: translateY(-5px); /* Slight lift effect on hover */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Enhanced shadow on hover */
+}
+
+.homepage-card .MuiCardContent-root {
+  padding: 20px; /* Adjusted internal padding */
+}
+
+.homepage-card .MuiTypography-h5 {
+  font-size: 24px; /* Larger font size for the title */
+  font-weight: 600; /* Bolder font weight */
+  margin-bottom: 10px; /* Space below the title */
+  color: #f0db4f; /* Bright color for titles */
+}
+
+.homepage-card .MuiTypography-body1 {
+  font-size: 21px; /* Comfortable reading size */
+  color: #ffffff; /* White for better contrast */
+  line-height: 1.5; /* Improved line spacing for readability */
+}
+
+.layout-footer {
+  background-color: black; /* Footer background color */
+  color: white; /* Text color */
+  text-align: center; /* Center the text */
+  padding: 20px 0; /* Top and bottom padding */
+  position: absolute; /* Positioning relative to its nearest positioned ancestor or to the containing block */
+  bottom: 0; /* Stick to bottom */
+  width: 100%; /* Full width */
+}
+

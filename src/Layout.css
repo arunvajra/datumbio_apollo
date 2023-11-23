@@ -1,0 +1,68 @@
+.layout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* 100% of the viewport height */
+}
+
+main {
+  flex-grow: 1; /* Allows the main content to grow and push the footer down */
+}
+
+.layout-header {
+  background-color: #FFFEFA;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  position: relative; 
+}
+
+.logo img {
+  /* Adjust the size of your logo as needed */
+  height: 98px;
+  width: auto;
+  margin-top: 0px;
+}
+
+.vertical-line {
+  border-left: 2px solid black; /* Bold vertical line */
+  height: 50px; 
+  margin: 0 -5px;
+}
+
+.page-name {
+  font-weight: bold;
+  font-size: 32px;
+  margin: 0 20px;
+  font-family: 'Montserrat', sans-serif; 
+  color: #00A023; 
+}
+
+.feedback-button {
+  position: absolute;
+  top: 68px; /* Adjust as needed to make the button pop out */
+  right: 25px; /* Adjust for spacing from the right edge */
+  background-color: #24543D;
+  opacity: 0.94;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 14px;
+  padding: 10px 28px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; 
+}
+
+.feedback-button:hover {
+  background-color: #36725c; /* Slightly darker shade for hover effect */
+}
+
+
+.layout-footer {
+  background-color: #1a1a1a; /* Color close to black */
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 14px;
+}
