@@ -17,7 +17,7 @@ const GettingStarted = () => {
   };
 
   const navigateToDocumentation = () => {
-    window.location.href = 'http://localhost:3001/'; // Redirect to the Node.js proxy endpoint
+    window.location.href = 'https://nextra-datumbio.vercel.app/'; // Redirect to the Node.js proxy endpoint
   };
 
   return (
