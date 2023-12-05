@@ -55,9 +55,13 @@ const HomePage = () => {
         Build on top of connected health data with ease
       </p>
 
-      <button className="start-building-btn" onClick={handleStartBuildingClick}>
-        Start Building
+      <button className="start-building-btn" disabled>
+          Launching Soon!
       </button>
+
+      {/* <button className="start-building-btn" onClick={handleStartBuildingClick}>
+        Start Building
+      </button> */}
 
       <div className="cards-container">
         <Card className="homepage-card" sx={{ backgroundColor: 'rgba(0, 0, 0, 0.65)', color: 'white' }}>
